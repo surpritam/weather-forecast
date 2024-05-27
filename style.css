@@ -1,0 +1,59 @@
+body {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+.heading-row {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.heading-row h1 {
+    color: #ffffff;
+    margin: 0;
+}
+
+#weather-form label {
+    font-weight: bold;
+}
+
+#weather-result {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#forecast-cards .forecast-card {
+    background-color: #343a40;
+    color: #ffffff;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    flex: 1;
+}
+
+#forecast-cards .forecast-card img {
+    width: 50px;
+    height: 50px;
+}
+
+#search-history {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#search-history button {
+    background-color: #6c757d;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 4px;
+    text-align: left;
+}
+
+#search-history button:hover {
+    background-color: #5a6268;
+}
